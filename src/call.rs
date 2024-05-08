@@ -7,7 +7,7 @@ use http_body_util::BodyExt;
 use js_sys::{Array, Uint8Array};
 use tonic::body::BoxBody;
 use wasm_bindgen::JsValue;
-use web_sys::{Headers, RequestCredentials, RequestInit};
+use web_sys::{Headers, RequestInit};
 
 use crate::{fetch::fetch, options::FetchOptions, Error, ResponseBody};
 
