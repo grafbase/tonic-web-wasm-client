@@ -4,7 +4,7 @@ use std::{
     task::{Context, Poll},
 };
 
-use http::{Request, Response};
+use http::{request::Request, Response};
 use tonic::body::BoxBody;
 use tower_service::Service;
 
