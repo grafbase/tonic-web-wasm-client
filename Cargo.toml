@@ -12,7 +12,7 @@ keywords = ["grpc", "grpc-web", "tonic", "wasm"]
 edition = "2021"
 
 [patch.crates-io]
-tonic = { git = "https://github.com/hyperium/tonic", rev = "3457f9203226f88524b31bf5d64ce6e5ec7c993c" } # main
+tonic = { git = "https://github.com/hyperium/tonic", rev = "e0b6cafd6527d4e30ee17c0cdc2157e6dc5af1bc" } # main
 
 [dependencies]
 base64 = "0.22.0"
