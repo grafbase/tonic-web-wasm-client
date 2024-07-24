@@ -11,6 +11,9 @@ categories = ["web-programming", "network-programming", "asynchronous"]
 keywords = ["grpc", "grpc-web", "tonic", "wasm"]
 edition = "2021"
 
+[patch.crates-io]
+tonic = { git = "https://github.com/hyperium/tonic", rev = "3457f9203226f88524b31bf5d64ce6e5ec7c993c" } # main
+
 [dependencies]
 base64 = "0.22.0"
 byteorder = "1.5.0"
